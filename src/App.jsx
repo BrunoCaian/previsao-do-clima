@@ -4,7 +4,7 @@ import Routes from './routes/Routes'
 import Footer from './components/Footer';
 
 const App = () => {
-  const apiKey = '2862413eb1d9c4d5f49401c6ff8bdda0';
+  const apiKey = import.meta.env.VITE_API_KEY;
 
   return (
     <Router>
